@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap");
+.wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 .navbarWrapper {
-  top: 1.2rem;
+  top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,6 +17,8 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 2rem 0.1rem;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
 }
 
 .navbarWrapper .navbarLogo {
@@ -23,13 +31,17 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100%;
   width: 100%;
 }
 
 .navbarWrapper .navbarLogo img {
   height: 4.0625rem;
   width: auto;
+}
+
+.navbarWrapper .navbarLogo img:hover {
+  -webkit-animation: spin 4s linear infinite;
+          animation: spin 4s linear infinite;
 }
 
 .navbarWrapper .navbarList {
@@ -42,28 +54,34 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100%;
   width: 100%;
 }
 
 .navbarWrapper .navbarList .navbarListItem {
   text-transform: uppercase;
   list-style: none;
-  margin-left: 1rem;
+  margin-left: 2.5rem;
   font-family: "Roboto Mono", monospace;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  font-weight: 400;
   color: #000;
   text-decoration: none;
-  padding-inline: 1.5rem;
+  padding: 0.2rem 0.5rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .navbarWrapper .navbarList .navbarListItem:hover {
-  color: #000;
-  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: 0.03rem;
+  background-color: #edff00;
+  border-radius: 0.2rem;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .navbarWrapper .navbarList .navbarListItem:nth-child(4) {
-  margin-left: 22px;
+  margin-left: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,10 +91,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 14px 18px;
   border: 1px solid #000;
-  border-radius: 0.7rem;
+  border-radius: 0.3rem;
   background-color: #000;
   color: #fff;
 }
@@ -85,5 +103,33 @@
   padding: 0px 4px;
   height: 0.9rem;
   width: auto;
+}
+
+.navbarWrapper .navbarList .navbarListItem:nth-child(4):hover {
+  background-color: #edff00;
+  color: #000;
+  border-color: #edff00;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 /*# sourceMappingURL=Navbar.css.map */

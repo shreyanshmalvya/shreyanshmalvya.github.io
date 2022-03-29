@@ -1,52 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
 
+.wrapper{
+    position: sticky;
+    top: 0;
+}
 .navbarWrapper {
-    top: 1.2rem;
-    // position: fixed;
+    top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem 0.1rem;
+    transition: 0.3s linear;
 
     .navbarLogo {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100%;
         width: 100%;
         img {
             height: 4.0625rem;
             width: auto;
+            &:hover{
+                animation: spin 4s linear infinite;
+            }
         }
     }
     .navbarList {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100%;
+
         width: 100%;
         .navbarListItem {
             text-transform: uppercase;
             list-style: none;
-            margin-left: 1rem;
+            margin-left: 2.5rem;
             font-family: "Roboto Mono", monospace;
-            font-size: 1rem;
+            font-size: 0.9rem;
+            font-weight: 400;
             color: #000;
             text-decoration: none;
-            padding-inline: 1.5rem;
+            padding:0.2rem 0.5rem;
+            transition: all 0.2s ease-in-out;
             &:hover {
-                color: #000;
-                text-decoration: none;
+                font-size: 1rem;
+                letter-spacing: 0.03rem;
+                background-color: #edff00;
+                border-radius: 0.2rem;
+                transition: all 0.2s ease-in;
             }
             &:nth-child(4){
-                margin-left: 22px;
+                margin-left: 3rem;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                font-size: 1rem;
+                font-size: 0.9rem;
                 padding: 14px 18px;
                 border: 1px solid #000;
-                border-radius: 0.7rem;
+                border-radius: 0.3rem;
                 background-color: #000;
                 color: #fff;
                 img{
@@ -54,7 +65,23 @@
                     height: 0.9rem;
                     width: auto;
                 }
+                &:hover{
+                    background-color: #edff00;
+                    color: #000;
+                    border-color: #edff00;
+                }
             }
         }
     }
 }
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+    
+
