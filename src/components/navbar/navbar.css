@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap");
+.navbarWrapper {
+  top: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 0.1rem;
+}
+
+.navbarWrapper .navbarLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.navbarWrapper .navbarLogo img {
+  height: 4.0625rem;
+  width: auto;
+}
+
+.navbarWrapper .navbarList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.navbarWrapper .navbarList .navbarListItem {
+  text-transform: uppercase;
+  list-style: none;
+  margin-left: 1rem;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+  color: #000;
+  text-decoration: none;
+  padding-inline: 1.5rem;
+}
+
+.navbarWrapper .navbarList .navbarListItem:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbarWrapper .navbarList .navbarListItem:nth-child(4) {
+  margin-left: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+  padding: 14px 18px;
+  border: 1px solid #000;
+  border-radius: 0.7rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.navbarWrapper .navbarList .navbarListItem:nth-child(4) img {
+  padding: 0px 4px;
+  height: 0.9rem;
+  width: auto;
+}
+/*# sourceMappingURL=Navbar.css.map */
