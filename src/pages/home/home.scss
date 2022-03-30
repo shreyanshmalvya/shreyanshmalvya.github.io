@@ -1,5 +1,8 @@
 .homeWrapper{
     background-image: url('../../images/grad.png');
-    width:100vw;
-    height:100vh;
+    height: 100vh;
+    -moz-background-size: contain;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

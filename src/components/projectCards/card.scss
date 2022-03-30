@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Plane";
+    src: url("../../fonts/Plane/Plane.otf");
+}
+
+.cardWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6rem 4rem;
+    color: white;
+
+    .projectImage {
+        display: flex;
+        width: 50%;
+        justify-content: right;
+        .thumbnail {
+            width: 80%;
+            border-radius: 10px;
+            object-fit: contain;
+            transition: all 0.2s linear;
+            &:hover{
+                transform: translateY(-15px);
+                // transform: scale(1.1);
+            }
+        }
+    }
+
+    .contentWrapper {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        margin-top: 1rem;
+        margin-left: 2rem;
+
+        .projectTitle {
+            font-family: "Plane";
+            font-weight: bold;
+            font-size: 2rem;
+            text-transform: uppercase;
+            padding: 1rem 0;
+        }
+
+        .projectPosition {
+            font-size: 1rem;
+            font-weight: bold;
+            font-family: mono;
+            text-transform: uppercase;
+            color: grey;
+        }
+
+        .projectDescription {
+            font-size: 1rem;
+            font-family: mono;
+            color: grey;
+            padding: 2rem 0;
+            overflow-wrap: anywhere;
+        }
+
+        .learnbtn {
+            width: fit-content;
+            background-color: grey;
+            color: white;
+            box-shadow: none;
+            border-radius: 0.2rem;
+            text-transform: uppercase;
+            font-family: "Mono";
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            padding: 0.75rem 1.5rem;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                // border-bottom: 1.5px solid #000;
+                // border-radius: 0% !important;
+                font-size: 0.9rem;
+                letter-spacing: 0.03rem;
+                background-color: #edff00;
+                color: #000;
+                border-radius: 0.2rem;
+                transition: all 0.2s ease-in;
+            }
+        }
+    }
+}
