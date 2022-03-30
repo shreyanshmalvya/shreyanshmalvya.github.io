@@ -1,4 +1,62 @@
-.heroWrapper{
-    display: flex;
+@font-face {
+    font-family: Sans;
+    src: url('../../fonts/Sans/Sans.ttf');
+}
 
+.heroWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .imgWrapper{
+        padding-top: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .heroImage {
+            width: 75%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+    .heroText {
+        padding-top: 3rem;
+        text-align: center;
+        font-family: 'Sans';
+        font-size: calc((1.7 - 1) * 1.2vw + 1rem);
+        letter-spacing: 1px;
+    }
+    
+    .btnWrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1.7rem;
+
+        .worksbtn{
+            background-color: black;
+            color: white;
+            box-shadow: none;
+            border-radius: 0.2rem;
+            text-transform: uppercase;
+            font-family: "Mono";
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            padding: 0.75rem 1.5rem;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                // border-bottom: 1.5px solid #000;
+                // border-radius: 0% !important;
+                font-size: 0.9rem;
+                letter-spacing: 0.03rem;
+                background-color: #edff00;
+                color: #000;
+                border-radius: 0.2rem;
+                transition: all 0.2s ease-in;
+            }
+        }
+    }
 }

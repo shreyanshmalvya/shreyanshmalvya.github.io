@@ -37,7 +37,7 @@ const Navbar = () => {
                 <ul className='navbarList'>
                     <li className='navbarListItem'>Home</li>
                     <li className='navbarListItem'>About</li>
-                    <li className='navbarListItem'>Design</li>
+                    <li className='navbarListItem'>Projects</li>
                     <li className='navbarListItem'>Contact<img src={upArrow} alt='uparrow' /></li>
                 </ul>
             </div>

@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap");
+@font-face {
+  font-family: Mono;
+  src: url("../../fonts/Mono/Mono.otf");
+}
+
 .wrapper {
   position: -webkit-sticky;
   position: sticky;
@@ -66,15 +70,14 @@
 .navbarWrapper .navbarList .navbarListItem {
   text-transform: uppercase;
   list-style: none;
-  margin-left: 2.5rem;
-  font-family: "Roboto Mono", monospace;
+  margin-left: 2.9rem;
+  letter-spacing: .02em;
+  font-family: 'Mono';
   font-size: 0.9rem;
   font-weight: 400;
   color: #000;
   text-decoration: none;
   padding: 0.2rem 0.5rem;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
 }
 
 .navbarWrapper .navbarList .navbarListItem:hover {
