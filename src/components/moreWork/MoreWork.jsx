@@ -15,11 +15,11 @@ const MoreWork = () => {
             </div>
             <div className="flexWrapper">
                 <div className="projectA">
-                    <img src={ } alt='projectA' />
+                    <img src={#} alt='projectA' />
                     <div className="projectTitle">ARTS GROOVES AND FOODS • FALL 2021</div>
                 </div>
                 <div className="projectB">
-                    <img src={ } alt='projectB' />
+                    <img src={#} alt='projectB' />
                     <div className="projectTitle">ARTS GROOVES AND FOODS • FALL 2021</div>
                 </div>
             </div>
