@@ -16,6 +16,7 @@
         align-items: center;
         .heroImage {
             width: 75%;
+            // max-width: 80%;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -34,6 +35,9 @@
         justify-content: center;
         align-items: center;
         padding-top: 1.7rem;
+        padding-bottom: 1.7rem;
+
+        
 
         .worksbtn{
             background-color: black;

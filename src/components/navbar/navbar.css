@@ -4,8 +4,7 @@
 }
 
 .wrapper {
-  position: -webkit-sticky;
-  position: sticky;
+  position: absolute;
   top: 0;
 }
 
@@ -141,4 +140,4 @@
             transform: rotate(360deg);
   }
 }
-/*# sourceMappingURL=Navbar.css.map */
+/*# sourceMappingURL=navbar.css.map */

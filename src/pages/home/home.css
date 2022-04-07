@@ -1,6 +1,7 @@
 .homeWrapper {
   background-image: url("../../images/grad.png");
-  height: 100vh;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /*# sourceMappingURL=home.css.map */
