@@ -1,3 +1,97 @@
-.footerWrapper{
-    background-color: #EAFF00;
-}
+.footerWrapper {
+    background-color: #eaff00;
+    .lineBreakWrapper {
+        padding: 1rem 0;
+        hr {
+            width: 75%;
+            border: 0;
+            height: 1px;
+            background-color: #000;
+        }
+    }
+    .connectionsWrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        .connectionsLeft {
+            display: flex;
+            // padding: 1rem 2rem;
+            .connectionsLeftTitle {
+                font-size: 2.5rem;
+                font-family: "Sans";
+                color: #000;
+                align-items: left;
+            }
+            .connectionsLeftContent {
+                font-size: 1.2rem;
+                color: #000;
+            }
+        }
+        .connectionsRight {
+            display: flex;
+            flex-direction: row;
+            
+            .projects {
+                display: flex;
+                flex-direction: column;
+                padding: 1rem 1rem 1rem 1rem;
+                .projectsTitle {
+                    align-items: left;
+                    font-size: 1rem;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    font-family: "Mono";
+                    color: rgb(224, 222, 222);
+                    padding: .4rem 0;
+                }
+                .projectsList {
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    list-style: none;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 1rem;
+                    font-family: "Mono";
+                    letter-spacing: 1px;
+                    .projectListItem {
+                        padding: .1rem 0;
+                    }
+                }
+            }
+            .more{
+                display: flex;
+                flex-direction: column;
+                padding: 1rem 1rem 1rem 2.5rem;
+                .moreTitle {
+                    font-size: 1rem;
+                    letter-spacing: 1px;
+                    justify-content: center; 
+                    text-transform: uppercase;
+                    font-family: "Mono";
+                    color: rgb(224, 222, 222);
+                    justify-content: center; 
+                    padding: .4rem 0;
+                }
+                .moreList {
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    list-style: none;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 1rem;
+                    font-family: "Mono";
+                    letter-spacing: 1px;
+                    .moreListItem {
+                        padding: .1rem 0;
+                    }
+                }
+            }
+            }
+        }
+    }

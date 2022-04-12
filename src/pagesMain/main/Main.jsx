@@ -7,7 +7,7 @@ import Projects from '../../pages/projects/Projects'
 const Main = () => {
   return (
     <div>
-        <Navbar />
+        {/* <Navbar /> */}
         <Home />
         <Projects />
         <Footer />

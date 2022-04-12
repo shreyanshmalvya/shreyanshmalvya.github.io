@@ -1,4 +1,152 @@
 .footerWrapper {
-  background-color: #EAFF00;
+  background-color: #eaff00;
+}
+
+.footerWrapper .lineBreakWrapper {
+  padding: 1rem 0;
+}
+
+.footerWrapper .lineBreakWrapper hr {
+  width: 75%;
+  border: 0;
+  height: 1px;
+  background-color: #000;
+}
+
+.footerWrapper .connectionsWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.footerWrapper .connectionsWrapper .connectionsLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footerWrapper .connectionsWrapper .connectionsLeft .connectionsLeftTitle {
+  font-size: 2.5rem;
+  font-family: "Sans";
+  color: #000;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.footerWrapper .connectionsWrapper .connectionsLeft .connectionsLeftContent {
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.footerWrapper .connectionsWrapper .connectionsRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footerWrapper .connectionsWrapper .connectionsRight .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.footerWrapper .connectionsWrapper .connectionsRight .projects .projectsTitle {
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Mono";
+  color: #e0dede;
+  padding: .4rem 0;
+}
+
+.footerWrapper .connectionsWrapper .connectionsRight .projects .projectsList {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-family: "Mono";
+  letter-spacing: 1px;
+}
+
+.footerWrapper .connectionsWrapper .connectionsRight .projects .projectsList .projectListItem {
+  padding: .1rem 0;
+}
+
+.footerWrapper .connectionsWrapper .connectionsRight .more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem 1rem 1rem 2.5rem;
+}
+
+.footerWrapper .connectionsWrapper .connectionsRight .more .moreTitle {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-family: "Mono";
+  color: #e0dede;
+  justify-content: center;
+  padding: .4rem 0;
+}
+
+.footerWrapper .connectionsWrapper .connectionsRight .more .moreList {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-family: "Mono";
+  letter-spacing: 1px;
+}
+
+.footerWrapper .connectionsWrapper .connectionsRight .more .moreList .moreListItem {
+  padding: .1rem 0;
 }
 /*# sourceMappingURL=footer.css.map */
